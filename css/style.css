@@ -1,0 +1,32 @@
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: orange;
+  }
+
+  .clockwiseSpin {
+   
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-name: clockwiseSpin;
+    animation-timing-function: linear;
+ }
+
+ 
+
+  @keyframes clockwiseSpin {
+    from  {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+    }	
+ }
